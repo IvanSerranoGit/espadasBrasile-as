@@ -1087,7 +1087,12 @@ body {
   }
   .menu-content__bebidas a{
     max-width: 26%;
+    width: 50%;
+    text-align: left;
 
+  }
+  .menu-content__bebidas span{
+    text-align: right;
   }
   .menu-basic .menu-content span {
     background: #fff;
