@@ -25,7 +25,17 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
   }
-  
+  h2{
+    text-align: center;
+    padding:35px;
+    font-weight: 600;
+  }
+
+  h3{
+    text-align: center;
+    padding:15px;
+    font-weight: 600;
+  }
   /*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
@@ -571,7 +581,7 @@ body {
   }
   
   .section-title {
-    
+    margin-top: 80px;
     text-align: center;
     padding-bottom: 30px;
   }
@@ -584,7 +594,15 @@ body {
     font-weight: 700;
     color: #262727;
   }
-  
+  .container--buffet{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .carne {
+    padding: 10px;
+    border: 1px solid black;
+    position: absolute;
+  }
   .section-title h2 span {
     color: #E4B143;
   }
