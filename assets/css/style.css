@@ -1085,7 +1085,10 @@ body {
     font-weight: 700;
     color: #E4B143;
   }
-  
+  .menu-content__bebidas a{
+    max-width: 26%;
+
+  }
   .menu-basic .menu-content span {
     background: #fff;
     position: relative;
