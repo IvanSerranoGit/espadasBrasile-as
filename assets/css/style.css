@@ -14,11 +14,11 @@ body {
   }
   
   a {
-    color: #E4B143;
+    color: #D42A49;
   }
   
   a:hover {
-    color: #ffc56e;
+    color: #b62e47;
     text-decoration: none;
   }
   
@@ -55,13 +55,13 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    background: #E4B143;
+    background: #D42A49;
     color: #262727;
     transition: all 0.4s;
   }
   
   .back-to-top i:hover {
-    background: #E4B143;
+    background: #D42A49;
     color: #fff;
   }
   
@@ -81,7 +81,7 @@ body {
   }
   
   #topbar i {
-    color: #E4B143;
+    color: #D42A49;
   }
   
   #topbar i + i {
@@ -175,7 +175,7 @@ body {
     transition: 0.3s;
   }
   .nav-menu .envia_tus_datos a {
-    background: #E4B143;
+    background: #D42A49;
     color: #fff;
     border-radius: 50px;
     margin: 0 0 0 20px;
@@ -230,7 +230,7 @@ body {
   }
   
   .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-    color: #E4B143;
+    color: #D42A49;
   }
   
   .nav-menu .drop-down > a:after {
@@ -325,7 +325,7 @@ body {
   }
   
   .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-    color: #E4B143;
+    color: #D42A49;
     text-decoration: none;
   }
   
@@ -347,7 +347,7 @@ body {
     color: #fff;
   }
   .mobile-nav .envia_tus_datos a {
-    background: #E4B143;
+    background: #D42A49;
     color: #fff;
     border-radius: 50px;
     margin: 0 0 0 20px;
@@ -360,7 +360,7 @@ body {
     display: inline-block;
   }
   .mobile-nav .envia_tus_datos a:hover {
-    background: #E4B143;
+    background: #D42A49;
     color: #fff;
   }
   
@@ -436,13 +436,13 @@ body {
   }
   
   #hero .carousel-item::before {
-    content: '';
+    /* content: '';
     background-color: rgba(12, 11, 10, 0.5);
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
   }
   
   #hero .carousel-container {
@@ -468,7 +468,7 @@ body {
   }
   
   #hero h2 span {
-    color: #E4B143;
+    color: #D42A49;
   }
   
   #hero p {
@@ -546,11 +546,11 @@ body {
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
     color: #fff;
-    border: 2px solid #E4B143;
+    border: 2px solid #D42A49;
   }
   
   #hero .btn-menu:hover, #hero .btn-book:hover {
-    background: #E4B143;
+    background: #D42A49;
     color: #fff;
   }
   
@@ -573,7 +573,7 @@ body {
   # Sections General
   --------------------------------------------------------------*/
   section {
-    padding: 60px 0;
+    padding: 0 0;
   }
   
   .section-bg {
@@ -604,7 +604,7 @@ body {
     position: absolute;
   }
   .section-title h2 span {
-    color: #E4B143;
+    color: #D42A49;
   }
   
   .section-title p {
@@ -662,7 +662,7 @@ body {
   
   .about .content ul i {
     font-size: 20px;
-    color: #E4B143;
+    color: #D42A49;
     position: absolute;
     left: 0;
     top: 2px;
@@ -683,7 +683,7 @@ body {
   .about .play-btn {
     width: 94px;
     height: 94px;
-    background: radial-gradient(#E4B143 50%, rgba(255, 176, 59, 0.4) 52%);
+    background: radial-gradient(#D42A49 50%, rgba(255, 176, 59, 0.4) 52%);
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -753,6 +753,10 @@ body {
     border-radius: 0;
   }
   
+  .map{
+    margin-top: 15px;
+    width: 100%;
+  }
   
   @media (max-width: 1024px) {
     .about .content, .about .accordion-list {
@@ -863,20 +867,20 @@ body {
     display: block;
     font-size: 28px;
     font-weight: 700;
-    color: #E4B143;
+    color: #D42A49;
   }
   
   .packages .box-advance span {
     display: block;
     font-size: 28px;
     font-weight: 700;
-    color: #E4B143;
+    color: #D42A49;
   }
   .packages .box-enterprise span {
     display: block;
     font-size: 28px;
     font-weight: 700;
-    color: #E4B143;
+    color: #D42A49;
   }
   
   
@@ -981,7 +985,7 @@ body {
     text-align: center;
     width: 72px;
     height: 72px;
-    background: #E4B143;
+    background: #D42A49;
   }
   
   .benefits .icon i {
@@ -1002,15 +1006,15 @@ body {
   
   .benefits .icon-box:hover .icon {
     background: #fff;
-    border: 2px solid #E4B143;
+    border: 2px solid #D42A49;
   }
   
   .benefits .icon-box:hover .icon i {
-    color: #E4B143;
+    color: #D42A49;
   }
   
   .benefits .icon-box:hover .title a {
-    color: #E4B143;
+    color: #D42A49;
   }
   
   .benefits .description {
@@ -1043,13 +1047,13 @@ body {
     margin: 0 3px 10px 3px;
     transition: all ease-in-out 0.3s;
     background: #fff;
-    border: 2px solid #E4B143;
+    border: 2px solid #D42A49;
     border-radius: 50px;
   }
   
   .menu-basic #menu-flters li:hover, .menu #menu-flters li.filter-active {
     color: #fff;
-    background: #E4B143;
+    background: #D42A49;
   }
   
   .menu-basic #menu-flters li:last-child {
@@ -1083,7 +1087,7 @@ body {
     position: relative;
     z-index: 3;
     font-weight: 700;
-    color: #E4B143;
+    color: #D42A49;
   }
   .menu-content__bebidas a{
     max-width: 26%;
@@ -1132,7 +1136,7 @@ body {
     color: #262727;
     margin-bottom: 10px;
     transition: all ease-in-out 0.3s;
-    border: 2px solid #E4B143;
+    border: 2px solid #D42A49;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;;
   }
@@ -1188,7 +1192,7 @@ body {
     position: relative;
     z-index: 3;
     font-weight: 700;
-    color: #E4B143;
+    color: #D42A49;
     transition: 0.3s;
   }
   
@@ -1239,12 +1243,12 @@ body {
   }
   
   .specials .nav-link:hover {
-    color: #E4B143;
+    color: #D42A49;
   }
   
   .specials .nav-link.active {
-    color: #E4B143;
-    border-color: #E4B143;
+    color: #D42A49;
+    border-color: #D42A49;
   }
   
   .specials .tab-pane.active {
@@ -1323,7 +1327,7 @@ body {
   .events .event-item h3 {
     font-weight: 600;
     font-size: 26px;
-    color: #E4B143;
+    color: #D42A49;
   }
   
   .events .event-item .price {
@@ -1334,7 +1338,7 @@ body {
   }
   
   .events .event-item .price span {
-    border-bottom: 2px solid #E4B143;
+    border-bottom: 2px solid #D42A49;
   }
   
   .events .event-item ul {
@@ -1349,7 +1353,7 @@ body {
   .events .event-item ul i {
     font-size: 20px;
     padding-right: 4px;
-    color: #E4B143;
+    color: #D42A49;
   }
   
   .events .event-item p:last-child {
@@ -1371,7 +1375,7 @@ body {
   }
   
   .events .owl-dot.active {
-    background-color: #E4B143 !important;
+    background-color: #D42A49 !important;
   }
   
   @media (min-width: 992px) {
@@ -1454,7 +1458,7 @@ body {
   }
   
   .send-data .php-email-form button[type="submit"] {
-    background: #E4B143;
+    background: #D42A49;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -1542,7 +1546,7 @@ body {
   }
   
   .book-a-table .php-email-form button[type="submit"] {
-    background: #E4B143;
+    background: #D42A49;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -1661,7 +1665,7 @@ body {
   }
   
   .chefs .member .social a:hover {
-    color: #E4B143;
+    color: #D42A49;
   }
   
   .chefs .member .social i {
@@ -1806,7 +1810,7 @@ body {
   
   .contact .info i {
     font-size: 20px;
-    color: #E4B143;
+    color: #D42A49;
     float: left;
     width: 44px;
     height: 44px;
@@ -1911,7 +1915,7 @@ body {
   }
   
   .contact .php-email-form button[type="submit"] {
-    background: #E4B143;
+    background: #D42A49;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -1920,7 +1924,7 @@ body {
   }
   
   .contact .php-email-form button[type="submit"]:hover {
-    background: #E4B143;
+    background: #D42A49;
   }
   
   @-webkit-keyframes animate-loading {
@@ -1955,7 +1959,7 @@ body {
   #footer h3 {
     font-size: 36px;
     font-weight: 700;
-    color: #E4B143;
+    color: #D42A49;
     position: relative;
     padding: 0;
     margin: 0 0 15px 0;
@@ -1988,7 +1992,7 @@ body {
   }
   
   #footer .social-links a:hover {
-    background: #E4B143;
+    background: #D42A49;
   }
   
   #footer .copyright {
